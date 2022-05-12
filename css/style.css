@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* header */
+
+header{
+    height: 70px;
+    background-color: #0084fd;
+    color: white;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    display: none;
+}
+
+
+
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (min-width: 992px) {
+    .menu{
+        display: block;
+    }
+
+    .menu li{
+        list-style-type: none;
+        padding-right: 20px;
+        
+    }
+
+    
+    .burger{
+        display: none;
+    }
+
+
+
+
+
+
+}
