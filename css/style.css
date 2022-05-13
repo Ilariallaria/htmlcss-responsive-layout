@@ -55,9 +55,16 @@ nav{
     display: none;
 }
 
+/***** MAIN *****/
+
+
+/* section service */
+
 .service{
     padding-top: 1rem;
 }
+
+
 .card{
     padding: 1rem 1rem;
     margin: 10px 0;
@@ -85,17 +92,22 @@ nav{
 
 /* TABLET */
 @media all and (min-width: 768px) {
-    .service{
+    .cont{
         display: flex;
         flex-wrap: wrap;
+
     }
 
-    .card{
+    .grow{
         width: calc(100% / 3);
+        background-color: white;
+        padding: 10px
+
     }
 
-    .card:first-child{
+    .grow:first-child{
         width: calc( (100% / 3) * 2);
+        /* height: 100%; */
     }
 
 
