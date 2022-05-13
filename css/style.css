@@ -148,9 +148,6 @@ nav{
     color: white;
 }
 
-/* .p-card h2{
-    padding: 2rem 0;
- } */
 
  .p-right{
     background-color: white;
@@ -222,6 +219,47 @@ nav{
     font-weight: 700;
 }
 
+/*------------------------------ SECTION BENEFITS */
+
+.benefits{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#9792e4;
+}
+
+.title{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.b-cont{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color:#9792e4;
+
+}
+
+.b-card{
+    padding: 1rem 1rem 0 1rem;
+    margin: 10px 0;
+    background-color: white;
+    text-align: left;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.bottom{
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
 
 
 
@@ -274,6 +312,26 @@ nav{
     .t-card p{
         width: 80%;
     }
+
+    /* ----benefits----*/
+
+    .b-cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .b-card{
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .b-grow{
+        width: calc(100% / 2);
+        padding: 10px
+    }
+
+
 }
 
 /***************** DESKTOP **************/
@@ -338,6 +396,12 @@ nav{
         width: 250px;
         height: auto;
 
+    }
+
+    /* ----benefits----*/
+    .b-grow{
+        width: calc(100% / 3);
+        padding: 10px
     }
 
     
