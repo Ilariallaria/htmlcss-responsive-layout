@@ -24,7 +24,7 @@
 }
 
 h2{
-    padding-bottom: 1rem;
+    padding: 2rem 0;
 }
 
 p{
@@ -51,6 +51,16 @@ img{
     margin: auto;
     display: block;
 }
+
+.card{
+    padding: 1rem 1rem 0 1rem;
+    margin: 10px 0;
+    background-color: lightblue;
+    text-align: center;
+    height: 100%;
+    border-radius: 25px;
+}
+
 
 
 /*-*-*-*-*-*-*-*-*   HEADER   *-*-*-*-*-*-*-*-*/
@@ -87,15 +97,6 @@ nav{
     padding-bottom: 1rem;
 }
 
-.card{
-    padding: 1rem 1rem 0 1rem;
-    margin: 10px 0;
-    background-color: lightblue;
-    text-align: center;
-    height: 100%;
-    /* test */
-    border-radius: 25px;
-}
 
 .service h2{
     color: #0084fd;
@@ -147,9 +148,9 @@ nav{
     color: white;
 }
 
-.p-card h2{
+/* .p-card h2{
     padding: 2rem 0;
- }
+ } */
 
  .p-right{
     background-color: white;
@@ -167,10 +168,68 @@ nav{
     text-align: center;
     margin: 0 auto;
     background-color: #9792e4;
-    font-size: 20px;
-    
-    
+    font-size: 20px;   
 }
+
+/*------------------------------ SECTION TESTIMONIALS */
+
+.testimonials{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+}
+
+.t-cont{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.testimonials h2{
+    color:#9792e4;
+}
+
+
+.t-card{
+    background-color:#9792e4;
+    color: white;
+    padding: 1rem;
+    margin: 10px 0;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.img-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-box img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.name{
+    text-align: left;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -203,6 +262,18 @@ nav{
         width: calc( (100% / 3) * 2);
     }
 
+    /* ----testimonials----*/
+
+    .t-card{
+        flex-direction:row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t-card p{
+        width: 80%;
+    }
 }
 
 /***************** DESKTOP **************/
@@ -238,6 +309,9 @@ nav{
 
     .c-large .image{
         margin-top: 10px;
+        align-self: end;
+        padding-left: 50px;
+    
     }
 
     /* ---- planning ----*/
