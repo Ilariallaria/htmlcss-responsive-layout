@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* COMMON */
@@ -58,6 +59,7 @@ header{
     height: 70px;
     background-color: #0084fd;
     color: white;
+    font-size: 12px;
 }
 
 nav{
@@ -68,6 +70,11 @@ nav{
 
 .menu{
     display: none;
+}
+
+.menu .btn{
+    background-color: white;
+    color: black;
 }
 
 /*-*-*-*-*-*-*-*-*-*   MAIN   *-*-*-*-*-*-*-*-*/
@@ -101,6 +108,10 @@ nav{
 
 .service .btn{
     margin-bottom: 1rem;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+
 }
 .service .c-large p {
     text-align: left;
@@ -108,6 +119,16 @@ nav{
 .c-large img{
     width: 250px;
 }
+
+.icons{
+    font-size: 100px;
+    color: #0084fd;
+}
+.txt span{
+    padding-right: 10px;
+}
+
+
 
 /*------------------------------ SECTION PLANNING */
 
@@ -119,7 +140,6 @@ nav{
 
 
 .p-card{
-    border: 1px solid red;
     padding: 1rem;
     margin: 2rem;
     text-align: left;
@@ -136,6 +156,7 @@ nav{
     text-align: center;
     color: black;
     border-radius: 30px;
+    padding-bottom: 2rem;
 
 }
 
@@ -147,6 +168,7 @@ nav{
     margin: 0 auto;
     background-color: #9792e4;
     font-size: 20px;
+    
     
 }
 
@@ -202,6 +224,8 @@ nav{
         display: none;
     }
 
+
+
     /* ----service----*/
     .c-large{
         display: flex;
@@ -219,24 +243,30 @@ nav{
     /* ---- planning ----*/
     .small-cont{
         display: flex;
+        align-items: flex-end;
     }
-
     .p-grow{
         width: 50%;
         padding: 1rem;
     }
 
-
-    .p-card .p-right{
-
+    
+    .p-card h2{
+        padding-top: 100px;
     }
-    .p-right img{
 
-        width: 300px;
+    .p-right h2{
+        padding-top: 2rem;
+    }
+
+
+    .p-right img{
+        width: 250px;
         height: auto;
 
     }
 
+    
 
 
 
