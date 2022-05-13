@@ -37,6 +37,13 @@ a{
     border-radius: 20px;
 }
 
+img{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+
 /* HEADER */
 
 header{
@@ -64,12 +71,12 @@ nav{
     padding-top: 1rem;
 }
 
-
 .card{
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 0 1rem;
     margin: 10px 0;
     background-color: lightblue;
     text-align: center;
+    height: 100%;
     /* test */
     border: 1px solid red;
 }
@@ -89,12 +96,22 @@ nav{
 .service:first-child p {
     text-align: left;
 }
+.c-large img{
+    width: 250px;
+}
+
+
 
 /* TABLET */
 @media all and (min-width: 768px) {
     .cont{
         display: flex;
         flex-wrap: wrap;
+
+    }
+
+    .card{
+        margin: 0;
 
     }
 
@@ -107,13 +124,14 @@ nav{
 
     .grow:first-child{
         width: calc( (100% / 3) * 2);
-        /* height: 100%; */
+        
     }
 
 
 }
 
 @media all and (min-width: 992px) {
+
     .menu{
         display: block;
     }
@@ -128,9 +146,16 @@ nav{
         display: none;
     }
 
+    .c-large{
+        display: flex;
 
+    }
 
+    .c-large .txt{
+        width: 50%;
+    }
 
-
-
+    .image{
+        margin-top: 10px;
+    }
 }
