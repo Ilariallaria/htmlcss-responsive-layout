@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 .cont{
     width: 95%;
     max-width: 1170px;
@@ -50,7 +52,7 @@ img{
 }
 
 
-/* HEADER */
+/*-*-*-*-*-*-*-*-*   HEADER   *-*-*-*-*-*-*-*-*/
 
 header{
     height: 70px;
@@ -68,10 +70,10 @@ nav{
     display: none;
 }
 
-/***** MAIN *****/
+/*-*-*-*-*-*-*-*-*-*   MAIN   *-*-*-*-*-*-*-*-*/
 
 
-/* section service */
+/*--------------------------------SECTION SERVICE */
 
 .service{
     padding-top: 1rem;
@@ -100,47 +102,53 @@ nav{
 .service .btn{
     margin-bottom: 1rem;
 }
-.service:first-child p {
+.service .c-large p {
     text-align: left;
 }
 .c-large img{
     width: 250px;
 }
-/* fine section service */
 
-/*************************** section violet */
+/*------------------------------ SECTION PLANNING */
 
-.violet{
-    background-color: violet;
+.planning{
+    background-color: #9792e4;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 
-.v-card{
+.p-card{
     border: 1px solid red;
     padding: 1rem;
     margin: 2rem;
     text-align: left;
-    height: 100%;
+    /* height: 100%; */
     color: white;
 }
 
-.v-card h2{
+.p-card h2{
+    padding: 2rem 0;
  }
 
-.v-text{
+ .p-right{
     background-color: white;
     text-align: center;
     color: black;
+    border-radius: 30px;
 
 }
 
-.v-text h2{
+.p-right .btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #9792e4;
+    font-size: 20px;
+    
 }
-.v-text p{
-
-}
 
 
 
@@ -148,37 +156,38 @@ nav{
 
 
 
+/*************** TABLET ***************/
 
-/* TABLET */
 @media all and (min-width: 768px) {
+
+    /* ----service----*/
+
     .cont{
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .card{
         margin: 0;
-
     }
 
     .s-grow{
         width: calc(100% / 3);
         background-color: white;
         padding: 10px
-
     }
 
     .s-grow:first-child{
         width: calc( (100% / 3) * 2);
-        
     }
-
 
 }
 
+/***************** DESKTOP **************/
+
 @media all and (min-width: 992px) {
 
+    /* ---- menu---- */
     .menu{
         display: block;
     }
@@ -193,7 +202,7 @@ nav{
         display: none;
     }
 
-    /* service */
+    /* ----service----*/
     .c-large{
         display: flex;
 
@@ -207,18 +216,25 @@ nav{
         margin-top: 10px;
     }
 
-    /* violet */
+    /* ---- planning ----*/
     .small-cont{
         display: flex;
     }
 
-    .v-grow{
+    .p-grow{
         width: 50%;
         padding: 1rem;
     }
 
-    .v-card{
-        margin: 0;
+
+    .p-card .p-right{
+
+    }
+    .p-right img{
+
+        width: 300px;
+        height: auto;
+
     }
 
 
