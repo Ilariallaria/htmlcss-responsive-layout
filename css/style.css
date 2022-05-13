@@ -10,6 +10,12 @@
     margin: 0 auto;
 }
 
+.small-cont{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
@@ -69,6 +75,7 @@ nav{
 
 .service{
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .card{
@@ -78,7 +85,7 @@ nav{
     text-align: center;
     height: 100%;
     /* test */
-    border: 1px solid red;
+    border-radius: 25px;
 }
 
 .service h2{
@@ -99,6 +106,46 @@ nav{
 .c-large img{
     width: 250px;
 }
+/* fine section service */
+
+/*************************** section violet */
+
+.violet{
+    background-color: violet;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.v-card{
+    border: 1px solid red;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: left;
+    height: 100%;
+    color: white;
+}
+
+.v-card h2{
+ }
+
+.v-text{
+    background-color: white;
+    text-align: center;
+    color: black;
+
+}
+
+.v-text h2{
+}
+.v-text p{
+
+}
+
+
+
+
+
 
 
 
@@ -115,14 +162,14 @@ nav{
 
     }
 
-    .grow{
+    .s-grow{
         width: calc(100% / 3);
         background-color: white;
         padding: 10px
 
     }
 
-    .grow:first-child{
+    .s-grow:first-child{
         width: calc( (100% / 3) * 2);
         
     }
@@ -146,6 +193,7 @@ nav{
         display: none;
     }
 
+    /* service */
     .c-large{
         display: flex;
 
@@ -155,7 +203,26 @@ nav{
         width: 50%;
     }
 
-    .image{
+    .c-large .image{
         margin-top: 10px;
     }
+
+    /* violet */
+    .small-cont{
+        display: flex;
+    }
+
+    .v-grow{
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .v-card{
+        margin: 0;
+    }
+
+
+
+
+
 }
