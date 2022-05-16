@@ -185,6 +185,7 @@ nav{
 
 .testimonials h2{
     color:#9792e4;
+    font-size: 35px;
 }
 
 
@@ -225,6 +226,7 @@ nav{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color:#9792e4;
+
 }
 
 .title{
@@ -234,30 +236,64 @@ nav{
     text-align: center;
 }
 
+.title h2{
+    font-size: 45px;
+    color: white;
+    padding-bottom: 70px;
+
+
+}
+
 .b-cont{
     width: 95%;
     max-width: 1170px;
     margin: 0 auto;
     background-color:#9792e4;
+    
 
 }
 
 .b-card{
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 2.5rem 0 2.5rem;
     margin: 10px 0;
     background-color: white;
     text-align: left;
     height: 100%;
     border-radius: 25px;
+    color: #9792e4;
+}
+
+
+.number{
+    font-size: 55px;
+    font-weight: bold;
 }
 
 .bottom{
-    padding-bottom: 1rem;
+    padding: 1rem 0 2.5rem 0;}
+
+.b-card-title{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.bottom .btn{
+    width: 160px;
+    color: white;
+    background-color: #9792e4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
+/*------------------------------ SECTION ABOUT US */
 
+.au-cont{
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
 
-
+}
 
 
 
@@ -315,6 +351,7 @@ nav{
 
     /* ----benefits----*/
 
+
     .b-cont{
         display: flex;
         flex-wrap: wrap;
@@ -322,7 +359,6 @@ nav{
 
     .b-card{
         margin: 0;
-        text-align: center;
 
     }
 
@@ -330,9 +366,33 @@ nav{
         width: calc(100% / 2);
         padding: 10px
     }
+    .number{
+
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    /* ----about us----*/
+
+
+
+
+
+
+
+
+
+
 
 
 }
+
+
+
+
+
+
+
 
 /***************** DESKTOP **************/
 
@@ -404,7 +464,10 @@ nav{
         padding: 10px
     }
 
-    
+    /* ----about us----*/
+
+
+
 
 
 
